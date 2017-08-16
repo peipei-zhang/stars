@@ -1,0 +1,13 @@
+
+.moreContent{
+  display: block;
+  width:560rpx;
+  position: absolute;
+  left: 50%;
+  top: 38%;
+  margin-left: -280rpx;
+}
+
+.moreContent text{
+   font-size: 14px;
+}

@@ -1,0 +1,8 @@
+@import "../category-item/category-item-template.wxss";
+.listContainer{
+  margin: 80rpx 0;
+}
+.listContainer .starContainer{
+  float: left; 
+  margin-bottom: 10px;
+}

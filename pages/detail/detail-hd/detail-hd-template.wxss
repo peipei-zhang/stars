@@ -1,0 +1,15 @@
+.headContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.headContainer image{
+  width: 180rpx;
+  height: 180rpx;
+  margin: 60px auto 40px;
+}
+
+.headContainer text{
+  font-size: 32rpx;
+}

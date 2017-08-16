@@ -1,0 +1,8 @@
+.circle {
+  width: 120rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgba(76, 114, 215, 0.5);
+}

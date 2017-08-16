@@ -1,0 +1,6 @@
+@import "../bar/bar-template.wxss";
+@import "../circle/circle-template.wxss";
+
+.barContainer{
+   margin-top: 30px;
+}

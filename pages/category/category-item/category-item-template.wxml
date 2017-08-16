@@ -1,0 +1,6 @@
+<template name="categoryItemTemplate">
+  <view class="starContainer" data-idx="{{idx+1}}" data-name="{{star_Zh}}" bindtap="onTap">
+     <image src="{{starImage}}"></image>
+     <text>{{star_Zh}}</text>
+  </view>
+</template>

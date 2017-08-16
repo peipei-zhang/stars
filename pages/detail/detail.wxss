@@ -1,0 +1,17 @@
+@import "detail-hd/detail-hd-template.wxss";
+@import "detail-bd/detail-bd-template.wxss";
+
+.detailContainer{
+  width: 750rpx;
+  position: absolute;
+  z-index: 22;
+}
+.circleContainer{
+  width:70%;
+  padding: 0 15%;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position:absolute;
+  bottom:15%;
+}

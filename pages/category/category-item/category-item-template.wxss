@@ -1,0 +1,12 @@
+.starContainer{
+   display: flex;
+   flex-direction: column;
+   width: 250rpx;
+   text-align: center;
+}
+
+.starContainer image{
+  width: 200rpx;
+  height: 200rpx;
+  margin: 0 auto;
+}

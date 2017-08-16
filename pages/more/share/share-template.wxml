@@ -1,0 +1,5 @@
+<template name="shareTemplate">
+   <view class="share">
+        <image src="../../../images/share.png"></image>
+   </view>
+</template>

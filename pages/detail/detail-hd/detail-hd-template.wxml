@@ -1,0 +1,6 @@
+<template name="detailHeadTemplate">
+   <view class="headContainer">
+            <image src="{{starImage}}"></image>     
+            <text>{{headTitle}}</text>
+     </view>
+</template>

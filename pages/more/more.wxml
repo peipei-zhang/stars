@@ -1,0 +1,14 @@
+<!--pages/more/more.wxml-->
+<import src='../detail/detail-hd/detail-hd-template'/>
+<import src='more-content/more-content-template'/>
+<import src='../detail/circle/circle-template'/>
+<import src='share/share-template'/>
+<view class="container">
+  <image src="../../images/bg.jpg" class="bg"></image>
+  <view class="detailContainer">
+     <template is="detailHeadTemplate"></template>
+     <template is='moreContentTemplate' data="{{summary}}"></template>
+     <template is="circleTemplate" data="{{type:'返回'}}"></template>
+     <template is="shareTemplate"></template>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<template name="barTemplate">
+         <view class="bar">
+           <text class="barTitle">{{type}}:</text>
+           <view class="barRate"  style="width:{{per}};">
+             <view class="barBackground" style="background-color:#ff7676;"></view>
+           </view>
+           <text class="barPer">{{per}}</text>
+         </view>
+</template>

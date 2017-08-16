@@ -1,0 +1,18 @@
+/*app.wxss*/
+text{
+  font-family: MicroSoft yahei;
+  font-size: 24rpx;
+  color: #FFFFFF;
+}
+.container{
+  width: 750rpx;
+  height: 100%;
+}
+
+image.bg{
+  width:750rpx;
+  height:100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}

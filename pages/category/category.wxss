@@ -1,0 +1,7 @@
+/* pages/category/category.wxss */
+@import "category-list/category-list-template.wxss";
+
+.listContainer{
+  position: absolute;
+  z-index: 22;
+}

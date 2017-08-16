@@ -1,0 +1,6 @@
+<!--pages/category/category.wxml-->
+<import src="category-list/category-list-template.wxml" />
+<view class="container">
+     <image src="{{bg}}" class="bg"></image>
+     <template is="categoryListTemplate" data="{{stars}}"></template>
+</view>

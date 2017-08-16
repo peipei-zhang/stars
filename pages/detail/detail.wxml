@@ -1,0 +1,14 @@
+<import src="detail-hd/detail-hd-template"/>
+<import src="detail-bd/detail-bd-template"/>
+<import src="circle/circle-template"/>
+<view class="container">
+   <image src="../../images/bg.jpg" class="bg"></image>
+   <view class="detailContainer">
+   <template is="detailHeadTemplate" data="{{...headData}}"></template>
+   <template is="detailBodyTemplate" data="{{starData}}"></template>
+   </view>
+    <view class="circleContainer">
+      <template is="circleTemplate" data="{{type:'星座'}}"></template>
+      <template is="circleTemplate" data="{{type:'更多'}}"></template>
+    </view>
+</view>

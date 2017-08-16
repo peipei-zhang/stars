@@ -1,0 +1,20 @@
+/* pages/more/more.wxss */
+@import "../detail/detail-hd/detail-hd-template.wxss";
+@import "../detail/circle/circle-template.wxss";
+@import "more-content/more-content-template.wxss";
+@import "share/share-template.wxss";
+.headContainer{
+  width:750rpx;
+  height: auto;
+  position: absolute;
+}
+.detailHeadTemplate{
+  position: absolute;
+  z-index: 22;    
+}
+.circle{
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  margin-left: -60rpx;
+}

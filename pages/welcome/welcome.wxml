@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+  <image src="{{bg}}" class="bg"></image>
+  <view class="start" animation="{{animationData}}" bindtap="onTap">
+    <image src="../../images/index.png"></image>
+    <text>点击开始</text>
+  </view>
+</view>

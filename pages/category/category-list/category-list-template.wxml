@@ -1,0 +1,8 @@
+<import src="../category-item/category-item-template.wxml" />
+<template name="categoryListTemplate">
+  <view class="listContainer">
+    <block wx:for="{{stars}}" wx:for-item="star" wx:for-index="idx" wx:key="*this">
+      <template is="categoryItemTemplate" data="{{...star,idx}}"></template>
+    </block>
+  </view>
+</template>

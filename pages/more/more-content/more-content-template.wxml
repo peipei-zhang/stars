@@ -1,0 +1,5 @@
+<template name="moreContentTemplate">
+      <view class="moreContent">
+        <text>{{summary}}</text>
+      </view>
+</template>

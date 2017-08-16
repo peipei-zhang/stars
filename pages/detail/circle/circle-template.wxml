@@ -1,0 +1,5 @@
+<template name='circleTemplate'>
+  <view class="circle" bindtap="onTap" data-type='{{type}}' >
+        <text>{{type}}</text>
+  </view>
+</template>

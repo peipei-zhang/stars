@@ -1,0 +1,10 @@
+<import src="../bar/bar-template" />
+<template name="detailBodyTemplate">
+  <view class="bodyContainer">
+  <view class="barContainer">
+    <block wx:for="{{starData.barData}}" wx:for-item="barItem" wx:key="*this">
+      <template is="barTemplate" data="{{...barItem}}"></template>
+    </block>
+  </view>
+  </view>
+</template>
